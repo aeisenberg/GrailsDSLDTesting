@@ -28,5 +28,10 @@
 			<type>2</type>
 			<locationURI>GRAILS_ROOT/2.0.0.BUILD-SNAPSHOT/projects/GrailsDSLDTesting/plugins</locationURI>
 		</link>
+		<link>
+			<name>grails.dsld</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/grails-core/grails-resources/src/grails/home/dsl-support/dsld/grails.dsld</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

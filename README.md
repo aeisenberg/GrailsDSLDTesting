@@ -1,8 +1,8 @@
 This grails project exercises the grails.dsld DSL descriptor file and provides a kind of unit testing for that file.
 
-## DSLD and hard-coded DSL support that is already implemented, but not tested in this project
+### DSLD and hard-coded DSL support that is already implemented, but not tested in this project
 
-#### Domain classes
+##### Domain classes
 * Constraints
 * hasMany
 * hasOne
@@ -13,26 +13,28 @@ This grails project exercises the grails.dsld DSL descriptor file and provides a
 * GormStaticAPI
 * GormValidationAPI
 * GormInstanceAPI
+* Abstract domain classes
 
 
 
-#### TagLibs
+##### TagLibs
 * Extra references available inside of tags
 
 
-#### Services
+##### Services
 * Autowired service references in other Grails artifacts
 
-#### Controllers
+##### Controllers
 * Extra references available inside of actions
 
 
-#### Unit testing
+##### Unit testing
 * Mocking domain
 * Mocking service
 * Mocking tag
 * Mocking controller
+* JUnit asserts, etc
 
-## DSLD and hard-coded support that is implemented and tested
+### DSLD and hard-coded support that is implemented and tested
 
-## Unimplemented Grails DSLs
+### Unimplemented Grails DSLs
