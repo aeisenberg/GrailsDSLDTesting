@@ -3,18 +3,9 @@ This grails project exercises the grails.dsld DSL descriptor file and provides a
 ### DSLD and hard-coded DSL support that is already implemented, but not tested in this project
 
 ##### Domain classes
-* Constraints
-* hasMany
-* hasOne
-* belingsTo
-* mappings
 * dynamic finders
 * where queries
-* GormStaticAPI
-* GormValidationAPI
-* GormInstanceAPI
 * Abstract domain classes
-
 
 
 ##### TagLibs
@@ -36,5 +27,15 @@ This grails project exercises the grails.dsld DSL descriptor file and provides a
 * JUnit asserts, etc
 
 ### DSLD and hard-coded support that is implemented and tested
+
+##### Domain classes
+* GormStaticAPI
+* GormValidationAPI
+* GormInstanceAPI
+* Constraints
+* hasMany
+* hasOne
+* belongsTo
+* mappings
 
 ### Unimplemented Grails DSLs

@@ -116,14 +116,22 @@ class First {
 		res = First.getValidationSkipMap()
 		res //TYPE:java.util.Map<org.grails.dsldtesting.First,java.lang.Boolean>
 		
-		// return object
+		// returns object...can we do better?
 		First.withCriteria null
 		First.withSession null
 		First.withNewSession null
 		First.withDatastoreSession null
 		First.withTransaction null
 		First.withNewTransaction null
-		
+	}
+	
+	// this is already fairly well tested in the STS tests, so don't need to do too much here.
+	def dynamicFinders() {
+		First.findByFirst(null)
+		First.findByFirstAndSecond(null, null)
+		First.findByFirstAndSecondBetween(null, null, null)
+		First.findByFirstBetweenAndSecond(null, null, null)
+		First.findByFirstBetweenAndSecondBetween(null, null, null, null)
 	}
 	
 }
